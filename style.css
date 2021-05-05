@@ -1,0 +1,61 @@
+
+.form-container{
+    background-color: aquamarine;
+    position: relative;
+    width:50vw;
+    top:40%;
+    left:30%;
+    padding:20px 40px;
+    text-align:center;
+}
+
+h1{
+    color:white;
+}
+
+.form-container .form-control{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+}
+
+label{
+    margin-right:20px;
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+}
+
+.form-control input{
+    border:2px solid lightgray;
+    width:100%;
+    padding:10px;
+    
+   
+}
+
+#trip-type{
+    padding:5px;
+    width:inherit;
+    border:none;
+}
+
+.comment{
+    margin-top:20px;
+    text-align:center;
+
+}
+
+.submit{
+   margin-top:20px;
+}
+
+button{
+    width:400px;
+    border:none;
+    border-radius:8px;
+    padding:10px;
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+}
